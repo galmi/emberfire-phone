@@ -4,9 +4,7 @@ Emberfire provider for Authenticate with Firebase with a Phone Number
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd emberfire-phone`
-* `npm install`
+* `ember install emberfire-phone`
 
 ## Using phone auth provider 
 
