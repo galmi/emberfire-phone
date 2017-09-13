@@ -1,6 +1,6 @@
 {
   "name": "emberfire-phone",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Emberfire provider for Authenticate with Firebase with a Phone Number",
   "keywords": [
     "ember-addon",
