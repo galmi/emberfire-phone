@@ -1,12 +1,27 @@
 # emberfire-phone
 
-This README outlines the details of collaborating on this Ember addon.
+Emberfire provider for Authenticate with Firebase with a Phone Number
 
 ## Installation
 
 * `git clone <repository-url>` this repository
 * `cd emberfire-phone`
 * `npm install`
+
+## Using phone auth provider 
+
+```
+this.get('session').open('emberfire-phone', {
+    provider: 'phone',
+    phoneNumber: '+14155552671',
+    recaptchaContainer: 'recaptcha',
+    invisibleRecaptcha: true
+});
+```
+
+* `phoneNumber` - The user's E.164 formatted phone number
+* `recaptchaContainer` - The ID of an **empty** element in the DOM.
+* `invisibleRecaptcha` - True if using invisible captcha.
 
 ## Running
 
