@@ -12,8 +12,10 @@ Emberfire provider for Authenticate with Firebase with a Phone Number
 this.get('session').open('emberfire-phone', {
     provider: 'phone',
     phoneNumber: '+14155552671',
-    recaptchaContainer: 'recaptcha',
-    invisibleRecaptcha: true
+    recaptcha: {
+        container: 'recaptcha',
+        invisible: true
+    }
 });
 ```
 
