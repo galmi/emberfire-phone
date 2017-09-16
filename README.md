@@ -20,8 +20,8 @@ this.get('session').open('emberfire-phone', {
 ```
 
 * `phoneNumber` - The user's E.164 formatted phone number
-* `recaptchaContainer` - The ID of an **empty** element in the DOM.
-* `invisibleRecaptcha` - True if using invisible captcha.
+* `recaptcha.container` - The ID of an **empty** element in the DOM.
+* `recaptcha.invisible` - True if using invisible captcha.
 
 ## Running
 
